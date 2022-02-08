@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirLTProMedium.otf">
+            <string>AvenirLTPro-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="o4b-sg-qlp" customClass="OnSiteCell" customModule="PrimePark" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o4b-sg-qlp" id="sNf-5h-T3f">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUU-qM-n4F" customClass="CheckBox" customModule="PrimePark" customModuleProvider="target">
+                        <rect key="frame" x="14" y="5" width="48" height="34"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="tick-fill-icon"/>
+                        <buttonConfiguration key="configuration" style="plain" image="tick-fill-icon" title=" "/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On-Street Parking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhT-1f-0ws">
+                        <rect key="frame" x="77" y="15" width="114.5" height="14"/>
+                        <fontDescription key="fontDescription" name="AvenirLTPro-Medium" family="Avenir LT Pro" pointSize="14"/>
+                        <color key="textColor" red="0.32549019610000002" green="0.20392156859999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7y-fh-85E">
+                        <rect key="frame" x="235" y="22" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yUU-qM-n4F" firstAttribute="centerY" secondItem="sNf-5h-T3f" secondAttribute="centerY" id="Pt7-QF-4nr"/>
+                    <constraint firstItem="e7y-fh-85E" firstAttribute="centerY" secondItem="sNf-5h-T3f" secondAttribute="centerY" id="UBe-Io-0MP"/>
+                    <constraint firstItem="MhT-1f-0ws" firstAttribute="leading" secondItem="yUU-qM-n4F" secondAttribute="trailing" constant="15" id="YVG-qd-0kp"/>
+                    <constraint firstItem="e7y-fh-85E" firstAttribute="leading" secondItem="MhT-1f-0ws" secondAttribute="trailing" constant="43.5" id="bLH-JX-r1t"/>
+                    <constraint firstItem="MhT-1f-0ws" firstAttribute="centerY" secondItem="sNf-5h-T3f" secondAttribute="centerY" id="eDS-0D-uN7"/>
+                    <constraint firstItem="yUU-qM-n4F" firstAttribute="leading" secondItem="sNf-5h-T3f" secondAttribute="leading" constant="14" id="zcY-cr-2yZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkboxbtn" destination="yUU-qM-n4F" id="2Bv-3A-Jus"/>
+                <outlet property="onSiteLabel" destination="MhT-1f-0ws" id="MSd-Bw-NUZ"/>
+                <outlet property="optionLabel" destination="e7y-fh-85E" id="CGX-DR-wRQ"/>
+            </connections>
+            <point key="canvasLocation" x="-486" y="149"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tick-fill-icon" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+module TTSegmentedControl {
+  umbrella header "TTSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_PrimePark {
+  umbrella header "Pods-PrimePark-umbrella.h"
+
+  export *
+  module * { export * }
+}

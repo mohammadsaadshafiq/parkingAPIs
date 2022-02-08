@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomNavBar" customModule="PrimePark" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="vyb-Do-HZZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyZ-KT-4ty">
+                    <rect key="frame" x="16" y="19" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="EcT-Ie-34K"/>
+                        <constraint firstAttribute="height" constant="20" id="jog-DS-Z8x"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="menu-icon"/>
+                    <buttonConfiguration key="configuration" style="plain" image="menu-icon" title=" "/>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tasmu-logo" translatesAutoresizingMaskIntoConstraints="NO" id="EZR-MO-GKz">
+                    <rect key="frame" x="58" y="13" width="132.5" height="32"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moc-Wy-JP7">
+                    <rect key="frame" x="318" y="16.5" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="IMl-aM-aWn"/>
+                        <constraint firstAttribute="width" constant="25" id="MSH-cL-sWU"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="notif-icon" title=" "/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaB-dA-9IQ">
+                    <rect key="frame" x="267" y="16.5" width="30" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="8bj-CX-Dh1"/>
+                        <constraint firstAttribute="height" constant="25" id="bp7-OJ-V8F"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="search-icon" title=" "/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.98039215690000003" green="0.81568627449999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="SyZ-KT-4ty" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="3Zg-wb-wXi"/>
+                <constraint firstItem="EZR-MO-GKz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4S8-8g-OwH"/>
+                <constraint firstItem="moc-Wy-JP7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Jhs-Oa-hDB"/>
+                <constraint firstItem="PaB-dA-9IQ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ouu-dT-6Ng"/>
+                <constraint firstAttribute="trailing" secondItem="moc-Wy-JP7" secondAttribute="trailing" constant="16" id="UgF-ZS-pg8"/>
+                <constraint firstItem="moc-Wy-JP7" firstAttribute="leading" secondItem="PaB-dA-9IQ" secondAttribute="trailing" constant="21" id="d5O-hH-Ptg"/>
+                <constraint firstItem="EZR-MO-GKz" firstAttribute="leading" secondItem="SyZ-KT-4ty" secondAttribute="trailing" constant="22" id="nHj-iB-tqg"/>
+                <constraint firstItem="SyZ-KT-4ty" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="uUJ-Zp-5iF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="97.826086956521749" y="-184.82142857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu-icon" width="16.5" height="12"/>
+        <image name="notif-icon" width="40.5" height="40"/>
+        <image name="search-icon" width="40.5" height="40"/>
+        <image name="tasmu-logo" width="132.5" height="32"/>
+    </resources>
+</document>

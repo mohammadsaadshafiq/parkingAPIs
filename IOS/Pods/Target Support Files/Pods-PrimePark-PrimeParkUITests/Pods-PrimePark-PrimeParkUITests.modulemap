@@ -1,0 +1,6 @@
+module Pods_PrimePark_PrimeParkUITests {
+  umbrella header "Pods-PrimePark-PrimeParkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

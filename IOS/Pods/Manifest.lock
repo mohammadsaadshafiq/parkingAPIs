@@ -1,0 +1,38 @@
+PODS:
+  - DropDown (2.3.13)
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - LayoutHelper (1.0.0)
+  - TTSegmentedControl (0.4.10)
+  - WMSegmentControl (2.2)
+
+DEPENDENCIES:
+  - DropDown
+  - FlagPhoneNumber
+  - IQKeyboardManagerSwift
+  - LayoutHelper
+  - TTSegmentedControl (~> 0.4.9)
+  - WMSegmentControl
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - FlagPhoneNumber
+    - IQKeyboardManagerSwift
+    - LayoutHelper
+    - TTSegmentedControl
+    - WMSegmentControl
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  LayoutHelper: fd809f52e0ae583f7576bf5d2af8248b5c3ec4d0
+  TTSegmentedControl: d8005c0cdca2549ade0aee8e09240723e2478a6a
+  WMSegmentControl: 4bb3a61e28cd0a0fcfcf932bec1f5795835b9f3f
+
+PODFILE CHECKSUM: 02943c6847095e15e498b550c70f310aa64f8e2e
+
+COCOAPODS: 1.11.2

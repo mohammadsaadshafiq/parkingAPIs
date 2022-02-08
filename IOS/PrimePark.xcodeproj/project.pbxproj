@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB74B220A50B420DB06131B /* libPods-PrimeParkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 333A257605CEF4C90A11BD1E /* libPods-PrimeParkTests.a */; };
+		204165352778A2C400D61CB4 /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204165342778A2C400D61CB4 /* CustomNavBar.swift */; };
+		206754532771ABB90026F700 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206754522771ABB90026F700 /* SignupViewController.swift */; };
+		2075A46F27784D6D00CE539B /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075A46E27784D6D00CE539B /* NSMutableAttributedString.swift */; };
+		2075A471277852A400CE539B /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075A470277852A400CE539B /* UITextView.swift */; };
+		2075A4732778631200CE539B /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075A4722778631200CE539B /* CheckBox.swift */; };
+		208F2590277486D000085BA7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F258F277486D000085BA7 /* ProfileViewController.swift */; };
+		208F2593277487F300085BA7 /* CustomNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208F2592277487F300085BA7 /* CustomNavBar.xib */; };
+		208F25952774990E00085BA7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F25942774990E00085BA7 /* UIViewController.swift */; };
+		208F259727749E2D00085BA7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F259627749E2D00085BA7 /* Utils.swift */; };
+		20906D50277C3768001B3A2A /* ReserveParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20906D4F277C3768001B3A2A /* ReserveParkingViewController.swift */; };
+		20941210276C9D0400AC1777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2094120F276C9D0400AC1777 /* AppDelegate.swift */; };
+		20941217276C9D0400AC1777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20941215276C9D0400AC1777 /* Main.storyboard */; };
+		20941219276C9D0500AC1777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20941218276C9D0500AC1777 /* Assets.xcassets */; };
+		2094121C276C9D0500AC1777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2094121A276C9D0500AC1777 /* LaunchScreen.storyboard */; };
+		20941227276C9D0600AC1777 /* PrimeParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20941226276C9D0600AC1777 /* PrimeParkTests.swift */; };
+		20941231276C9D0600AC1777 /* PrimeParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20941230276C9D0600AC1777 /* PrimeParkUITests.swift */; };
+		20941233276C9D0600AC1777 /* PrimeParkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20941232276C9D0600AC1777 /* PrimeParkUITestsLaunchTests.swift */; };
+		20941241276CB2C800AC1777 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20941240276CB2C800AC1777 /* LoginViewModel.swift */; };
+		20941244276CB2F500AC1777 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20941243276CB2F500AC1777 /* Observable.swift */; };
+		20941247276CB33400AC1777 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20941246276CB33400AC1777 /* LoginViewController.swift */; };
+		2094124A276CB37500AC1777 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20941249276CB37500AC1777 /* Credentials.swift */; };
+		209C39932770562C00D8E5D9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C39922770562C00D8E5D9 /* SplashViewController.swift */; };
+		209C39A32770598E00D8E5D9 /* Mulish-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39952770598D00D8E5D9 /* Mulish-Italic.ttf */; };
+		209C39A42770598E00D8E5D9 /* Mulish-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39962770598D00D8E5D9 /* Mulish-LightItalic.ttf */; };
+		209C39A52770598E00D8E5D9 /* Mulish-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39972770598D00D8E5D9 /* Mulish-ExtraLight.ttf */; };
+		209C39A62770598E00D8E5D9 /* Mulish-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39982770598E00D8E5D9 /* Mulish-ExtraBoldItalic.ttf */; };
+		209C39A72770598E00D8E5D9 /* Mulish-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39992770598E00D8E5D9 /* Mulish-BlackItalic.ttf */; };
+		209C39A82770598E00D8E5D9 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399A2770598E00D8E5D9 /* Mulish-ExtraBold.ttf */; };
+		209C39A92770598E00D8E5D9 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399B2770598E00D8E5D9 /* Mulish-Black.ttf */; };
+		209C39AA2770598E00D8E5D9 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399C2770598E00D8E5D9 /* Mulish-SemiBold.ttf */; };
+		209C39AB2770598E00D8E5D9 /* Mulish-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399D2770598E00D8E5D9 /* Mulish-SemiBoldItalic.ttf */; };
+		209C39AC2770598E00D8E5D9 /* Mulish-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399E2770598E00D8E5D9 /* Mulish-BoldItalic.ttf */; };
+		209C39AD2770598E00D8E5D9 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399F2770598E00D8E5D9 /* Mulish-Regular.ttf */; };
+		209C39AE2770598E00D8E5D9 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39A02770598E00D8E5D9 /* Mulish-Bold.ttf */; };
+		209C39AF2770598E00D8E5D9 /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39A12770598E00D8E5D9 /* Mulish-Light.ttf */; };
+		209C39B02770598E00D8E5D9 /* Mulish-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39A22770598E00D8E5D9 /* Mulish-ExtraLightItalic.ttf */; };
+		209C39BD27707BDF00D8E5D9 /* AvenirLTProBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B127707BDE00D8E5D9 /* AvenirLTProBook.otf */; };
+		209C39BE27707BDF00D8E5D9 /* AvenirLTProBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B227707BDE00D8E5D9 /* AvenirLTProBlack.otf */; };
+		209C39BF27707BDF00D8E5D9 /* AvenirLTProHeavyOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B327707BDE00D8E5D9 /* AvenirLTProHeavyOblique.otf */; };
+		209C39C027707BDF00D8E5D9 /* AvenirLTProLightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B427707BDE00D8E5D9 /* AvenirLTProLightOblique.otf */; };
+		209C39C127707BDF00D8E5D9 /* AvenirLTProRoman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B527707BDF00D8E5D9 /* AvenirLTProRoman.otf */; };
+		209C39C227707BDF00D8E5D9 /* AvenirLTProBlackOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B627707BDF00D8E5D9 /* AvenirLTProBlackOblique.otf */; };
+		209C39C327707BDF00D8E5D9 /* AvenirLTProLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B727707BDF00D8E5D9 /* AvenirLTProLight.otf */; };
+		209C39C427707BDF00D8E5D9 /* AvenirLTProOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B827707BDF00D8E5D9 /* AvenirLTProOblique.otf */; };
+		209C39C527707BDF00D8E5D9 /* AvenirLTProMediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B927707BDF00D8E5D9 /* AvenirLTProMediumOblique.otf */; };
+		209C39C627707BDF00D8E5D9 /* AvenirLTProBookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39BA27707BDF00D8E5D9 /* AvenirLTProBookOblique.otf */; };
+		209C39C727707BDF00D8E5D9 /* AvenirLTProHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39BB27707BDF00D8E5D9 /* AvenirLTProHeavy.otf */; };
+		209C39C827707BDF00D8E5D9 /* AvenirLTProMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39BC27707BDF00D8E5D9 /* AvenirLTProMedium.otf */; };
+		209C39CB27707E4B00D8E5D9 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C39CA27707E4B00D8E5D9 /* LoginManager.swift */; };
+		209C39CE27708F7800D8E5D9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C39CD27708F7800D8E5D9 /* UIView.swift */; };
+		209C39D02770939000D8E5D9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C39CF2770939000D8E5D9 /* UIColor.swift */; };
+		209C39D227709AF500D8E5D9 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C39D127709AF500D8E5D9 /* LanguageViewController.swift */; };
+		209C39D52770C37E00D8E5D9 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399B2770598E00D8E5D9 /* Mulish-Black.ttf */; };
+		209C39D62770C37E00D8E5D9 /* Mulish-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39992770598E00D8E5D9 /* Mulish-BlackItalic.ttf */; };
+		209C39D72770C37E00D8E5D9 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39A02770598E00D8E5D9 /* Mulish-Bold.ttf */; };
+		209C39D82770C37E00D8E5D9 /* Mulish-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399E2770598E00D8E5D9 /* Mulish-BoldItalic.ttf */; };
+		209C39D92770C37E00D8E5D9 /* AvenirLTProBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B227707BDE00D8E5D9 /* AvenirLTProBlack.otf */; };
+		209C39DA2770C37E00D8E5D9 /* AvenirLTProBlackOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B627707BDF00D8E5D9 /* AvenirLTProBlackOblique.otf */; };
+		209C39DB2770C37E00D8E5D9 /* AvenirLTProBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B127707BDE00D8E5D9 /* AvenirLTProBook.otf */; };
+		209C39DC2770C37E00D8E5D9 /* AvenirLTProBookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39BA27707BDF00D8E5D9 /* AvenirLTProBookOblique.otf */; };
+		209C39DD2770C37E00D8E5D9 /* AvenirLTProHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39BB27707BDF00D8E5D9 /* AvenirLTProHeavy.otf */; };
+		209C39DE2770C37E00D8E5D9 /* AvenirLTProHeavyOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B327707BDE00D8E5D9 /* AvenirLTProHeavyOblique.otf */; };
+		209C39DF2770C37E00D8E5D9 /* AvenirLTProLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B727707BDF00D8E5D9 /* AvenirLTProLight.otf */; };
+		209C39E02770C37E00D8E5D9 /* AvenirLTProLightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B427707BDE00D8E5D9 /* AvenirLTProLightOblique.otf */; };
+		209C39E12770C37E00D8E5D9 /* AvenirLTProMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39BC27707BDF00D8E5D9 /* AvenirLTProMedium.otf */; };
+		209C39E22770C37E00D8E5D9 /* AvenirLTProMediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B927707BDF00D8E5D9 /* AvenirLTProMediumOblique.otf */; };
+		209C39E32770C37E00D8E5D9 /* AvenirLTProOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B827707BDF00D8E5D9 /* AvenirLTProOblique.otf */; };
+		209C39E42770C37E00D8E5D9 /* AvenirLTProRoman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39B527707BDF00D8E5D9 /* AvenirLTProRoman.otf */; };
+		209C39E52770C37E00D8E5D9 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399A2770598E00D8E5D9 /* Mulish-ExtraBold.ttf */; };
+		209C39E62770C37E00D8E5D9 /* Mulish-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39982770598E00D8E5D9 /* Mulish-ExtraBoldItalic.ttf */; };
+		209C39E72770C37E00D8E5D9 /* Mulish-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39972770598D00D8E5D9 /* Mulish-ExtraLight.ttf */; };
+		209C39E82770C37E00D8E5D9 /* Mulish-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39A22770598E00D8E5D9 /* Mulish-ExtraLightItalic.ttf */; };
+		209C39E92770C37E00D8E5D9 /* Mulish-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39952770598D00D8E5D9 /* Mulish-Italic.ttf */; };
+		209C39EA2770C37E00D8E5D9 /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39A12770598E00D8E5D9 /* Mulish-Light.ttf */; };
+		209C39EB2770C37E00D8E5D9 /* Mulish-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C39962770598D00D8E5D9 /* Mulish-LightItalic.ttf */; };
+		209C39EC2770C37E00D8E5D9 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399F2770598E00D8E5D9 /* Mulish-Regular.ttf */; };
+		209C39ED2770C37E00D8E5D9 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399C2770598E00D8E5D9 /* Mulish-SemiBold.ttf */; };
+		209C39EE2770C37E00D8E5D9 /* Mulish-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C399D2770598E00D8E5D9 /* Mulish-SemiBoldItalic.ttf */; };
+		20ABBBDD27730CE400C7CF83 /* OTPAndGeneralInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABBBDC27730CE400C7CF83 /* OTPAndGeneralInfoViewController.swift */; };
+		20ABBBDF27730D0700C7CF83 /* VehicleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABBBDE27730D0700C7CF83 /* VehicleInfoViewController.swift */; };
+		20ABBBE127730D2B00C7CF83 /* PaymentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABBBE027730D2B00C7CF83 /* PaymentInfoViewController.swift */; };
+		20ABBBE3277346E600C7CF83 /* VerifyCodeForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABBBE2277346E600C7CF83 /* VerifyCodeForgotPassViewController.swift */; };
+		20ABBBE52773486400C7CF83 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABBBE42773486400C7CF83 /* ForgotPassViewController.swift */; };
+		20C76588277AE37A006DF842 /* Parking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C76587277AE37A006DF842 /* Parking.storyboard */; };
+		20C7658A277AE3AC006DF842 /* FindParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C76589277AE3AC006DF842 /* FindParkingViewController.swift */; };
+		20C7658D277B29BB006DF842 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C7658C277B29BB006DF842 /* MenuCell.swift */; };
+		20C7658F277B2A22006DF842 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C7658E277B2A22006DF842 /* Address.swift */; };
+		20C76591277B37E8006DF842 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C76590277B37E8006DF842 /* MenuCell.xib */; };
+		20C76593277B433F006DF842 /* OnSiteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C76592277B433F006DF842 /* OnSiteCell.xib */; };
+		20C76595277B4350006DF842 /* OnSiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C76594277B4350006DF842 /* OnSiteCell.swift */; };
+		20C76597277B44BC006DF842 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C76596277B44BC006DF842 /* Site.swift */; };
+		296476E711D489F04DF19E2A /* libPods-PrimePark-PrimeParkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD933344FE8D318FE9465B20 /* libPods-PrimePark-PrimeParkUITests.a */; };
+		A2792CABDE298516E3B7F8E1 /* libPods-PrimePark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226B53494850140B7C6A8821 /* libPods-PrimePark.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20941223276C9D0600AC1777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20941204276C9D0400AC1777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2094120B276C9D0400AC1777;
+			remoteInfo = PrimePark;
+		};
+		2094122D276C9D0600AC1777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20941204276C9D0400AC1777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2094120B276C9D0400AC1777;
+			remoteInfo = PrimePark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028A181D60D154F94412338D /* Pods-PrimeParkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeParkTests.debug.xcconfig"; path = "Target Support Files/Pods-PrimeParkTests/Pods-PrimeParkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		03DF53D7ADD79F3E4C07C471 /* Pods-PrimeParkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeParkTests.release.xcconfig"; path = "Target Support Files/Pods-PrimeParkTests/Pods-PrimeParkTests.release.xcconfig"; sourceTree = "<group>"; };
+		204165342778A2C400D61CB4 /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		206754522771ABB90026F700 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		2075A46E27784D6D00CE539B /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedString.swift; sourceTree = "<group>"; };
+		2075A470277852A400CE539B /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		2075A4722778631200CE539B /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		208F258F277486D000085BA7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		208F2592277487F300085BA7 /* CustomNavBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNavBar.xib; sourceTree = "<group>"; };
+		208F25942774990E00085BA7 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		208F259627749E2D00085BA7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		20906D4F277C3768001B3A2A /* ReserveParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveParkingViewController.swift; sourceTree = "<group>"; };
+		2094120C276C9D0400AC1777 /* PrimePark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimePark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2094120F276C9D0400AC1777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20941216276C9D0400AC1777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20941218276C9D0500AC1777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2094121B276C9D0500AC1777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2094121D276C9D0500AC1777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20941222276C9D0600AC1777 /* PrimeParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20941226276C9D0600AC1777 /* PrimeParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeParkTests.swift; sourceTree = "<group>"; };
+		2094122C276C9D0600AC1777 /* PrimeParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeParkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20941230276C9D0600AC1777 /* PrimeParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeParkUITests.swift; sourceTree = "<group>"; };
+		20941232276C9D0600AC1777 /* PrimeParkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeParkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20941240276CB2C800AC1777 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		20941243276CB2F500AC1777 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		20941246276CB33400AC1777 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20941249276CB37500AC1777 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		209C39922770562C00D8E5D9 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		209C39952770598D00D8E5D9 /* Mulish-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Italic.ttf"; sourceTree = "<group>"; };
+		209C39962770598D00D8E5D9 /* Mulish-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-LightItalic.ttf"; sourceTree = "<group>"; };
+		209C39972770598D00D8E5D9 /* Mulish-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraLight.ttf"; sourceTree = "<group>"; };
+		209C39982770598E00D8E5D9 /* Mulish-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		209C39992770598E00D8E5D9 /* Mulish-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-BlackItalic.ttf"; sourceTree = "<group>"; };
+		209C399A2770598E00D8E5D9 /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
+		209C399B2770598E00D8E5D9 /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
+		209C399C2770598E00D8E5D9 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		209C399D2770598E00D8E5D9 /* Mulish-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		209C399E2770598E00D8E5D9 /* Mulish-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-BoldItalic.ttf"; sourceTree = "<group>"; };
+		209C399F2770598E00D8E5D9 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		209C39A02770598E00D8E5D9 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		209C39A12770598E00D8E5D9 /* Mulish-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Light.ttf"; sourceTree = "<group>"; };
+		209C39A22770598E00D8E5D9 /* Mulish-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		209C39B127707BDE00D8E5D9 /* AvenirLTProBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProBook.otf; sourceTree = "<group>"; };
+		209C39B227707BDE00D8E5D9 /* AvenirLTProBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProBlack.otf; sourceTree = "<group>"; };
+		209C39B327707BDE00D8E5D9 /* AvenirLTProHeavyOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProHeavyOblique.otf; sourceTree = "<group>"; };
+		209C39B427707BDE00D8E5D9 /* AvenirLTProLightOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProLightOblique.otf; sourceTree = "<group>"; };
+		209C39B527707BDF00D8E5D9 /* AvenirLTProRoman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProRoman.otf; sourceTree = "<group>"; };
+		209C39B627707BDF00D8E5D9 /* AvenirLTProBlackOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProBlackOblique.otf; sourceTree = "<group>"; };
+		209C39B727707BDF00D8E5D9 /* AvenirLTProLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProLight.otf; sourceTree = "<group>"; };
+		209C39B827707BDF00D8E5D9 /* AvenirLTProOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProOblique.otf; sourceTree = "<group>"; };
+		209C39B927707BDF00D8E5D9 /* AvenirLTProMediumOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProMediumOblique.otf; sourceTree = "<group>"; };
+		209C39BA27707BDF00D8E5D9 /* AvenirLTProBookOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProBookOblique.otf; sourceTree = "<group>"; };
+		209C39BB27707BDF00D8E5D9 /* AvenirLTProHeavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProHeavy.otf; sourceTree = "<group>"; };
+		209C39BC27707BDF00D8E5D9 /* AvenirLTProMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProMedium.otf; sourceTree = "<group>"; };
+		209C39CA27707E4B00D8E5D9 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		209C39CD27708F7800D8E5D9 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		209C39CF2770939000D8E5D9 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		209C39D127709AF500D8E5D9 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		20ABBBDC27730CE400C7CF83 /* OTPAndGeneralInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPAndGeneralInfoViewController.swift; sourceTree = "<group>"; };
+		20ABBBDE27730D0700C7CF83 /* VehicleInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfoViewController.swift; sourceTree = "<group>"; };
+		20ABBBE027730D2B00C7CF83 /* PaymentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoViewController.swift; sourceTree = "<group>"; };
+		20ABBBE2277346E600C7CF83 /* VerifyCodeForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeForgotPassViewController.swift; sourceTree = "<group>"; };
+		20ABBBE42773486400C7CF83 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
+		20C76587277AE37A006DF842 /* Parking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Parking.storyboard; sourceTree = "<group>"; };
+		20C76589277AE3AC006DF842 /* FindParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindParkingViewController.swift; sourceTree = "<group>"; };
+		20C7658C277B29BB006DF842 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		20C7658E277B2A22006DF842 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		20C76590277B37E8006DF842 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		20C76592277B433F006DF842 /* OnSiteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnSiteCell.xib; sourceTree = "<group>"; };
+		20C76594277B4350006DF842 /* OnSiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSiteCell.swift; sourceTree = "<group>"; };
+		20C76596277B44BC006DF842 /* Site.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
+		226B53494850140B7C6A8821 /* libPods-PrimePark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimePark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		333A257605CEF4C90A11BD1E /* libPods-PrimeParkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimeParkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A62D1FEC24694F49B393B1 /* Pods_PrimePark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimePark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405124137A24ECB94B6D08C1 /* Pods-PrimePark-PrimeParkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimePark-PrimeParkUITests.debug.xcconfig"; path = "Target Support Files/Pods-PrimePark-PrimeParkUITests/Pods-PrimePark-PrimeParkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD933344FE8D318FE9465B20 /* libPods-PrimePark-PrimeParkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimePark-PrimeParkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EFCFA3FAB6E5A9B0309DBD /* Pods-PrimePark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimePark.release.xcconfig"; path = "Target Support Files/Pods-PrimePark/Pods-PrimePark.release.xcconfig"; sourceTree = "<group>"; };
+		EDF48E1B40DB52BAC7142E7C /* Pods-PrimePark-PrimeParkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimePark-PrimeParkUITests.release.xcconfig"; path = "Target Support Files/Pods-PrimePark-PrimeParkUITests/Pods-PrimePark-PrimeParkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F12941EA27CFCF909945F2BB /* Pods-PrimePark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimePark.debug.xcconfig"; path = "Target Support Files/Pods-PrimePark/Pods-PrimePark.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20941209276C9D0400AC1777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2792CABDE298516E3B7F8E1 /* libPods-PrimePark.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2094121F276C9D0600AC1777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB74B220A50B420DB06131B /* libPods-PrimeParkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20941229276C9D0600AC1777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296476E711D489F04DF19E2A /* libPods-PrimePark-PrimeParkUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208F2591277487C500085BA7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				208F2592277487F300085BA7 /* CustomNavBar.xib */,
+				204165342778A2C400D61CB4 /* CustomNavBar.swift */,
+				20C76590277B37E8006DF842 /* MenuCell.xib */,
+				20C76592277B433F006DF842 /* OnSiteCell.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		20941203276C9D0400AC1777 = {
+			isa = PBXGroup;
+			children = (
+				2094120E276C9D0400AC1777 /* PrimePark */,
+				20941225276C9D0600AC1777 /* PrimeParkTests */,
+				2094122F276C9D0600AC1777 /* PrimeParkUITests */,
+				2094120D276C9D0400AC1777 /* Products */,
+				CB870820D301931439574B55 /* Pods */,
+				EB84EC6EC09897714A28409F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2094120D276C9D0400AC1777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2094120C276C9D0400AC1777 /* PrimePark.app */,
+				20941222276C9D0600AC1777 /* PrimeParkTests.xctest */,
+				2094122C276C9D0600AC1777 /* PrimeParkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2094120E276C9D0400AC1777 /* PrimePark */ = {
+			isa = PBXGroup;
+			children = (
+				20C7658B277B29A9006DF842 /* Cells */,
+				20C76586277AE350006DF842 /* Storyboards */,
+				208F2591277487C500085BA7 /* CustomViews */,
+				209C39CC27708F6600D8E5D9 /* Extensions */,
+				209C39C927707E3400D8E5D9 /* Managers */,
+				209C39942770597800D8E5D9 /* Fonts */,
+				20941248276CB35B00AC1777 /* Model */,
+				20941245276CB31900AC1777 /* ViewControllers */,
+				20941242276CB2D400AC1777 /* Helpers */,
+				2094123F276CB2B300AC1777 /* ViewModels */,
+				2094120F276C9D0400AC1777 /* AppDelegate.swift */,
+				20941218276C9D0500AC1777 /* Assets.xcassets */,
+				2094121D276C9D0500AC1777 /* Info.plist */,
+			);
+			path = PrimePark;
+			sourceTree = "<group>";
+		};
+		20941225276C9D0600AC1777 /* PrimeParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				20941226276C9D0600AC1777 /* PrimeParkTests.swift */,
+			);
+			path = PrimeParkTests;
+			sourceTree = "<group>";
+		};
+		2094122F276C9D0600AC1777 /* PrimeParkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20941230276C9D0600AC1777 /* PrimeParkUITests.swift */,
+				20941232276C9D0600AC1777 /* PrimeParkUITestsLaunchTests.swift */,
+			);
+			path = PrimeParkUITests;
+			sourceTree = "<group>";
+		};
+		2094123F276CB2B300AC1777 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				20941240276CB2C800AC1777 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		20941242276CB2D400AC1777 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				20941243276CB2F500AC1777 /* Observable.swift */,
+				208F259627749E2D00085BA7 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		20941245276CB31900AC1777 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				20941246276CB33400AC1777 /* LoginViewController.swift */,
+				209C39922770562C00D8E5D9 /* SplashViewController.swift */,
+				209C39D127709AF500D8E5D9 /* LanguageViewController.swift */,
+				206754522771ABB90026F700 /* SignupViewController.swift */,
+				20ABBBDC27730CE400C7CF83 /* OTPAndGeneralInfoViewController.swift */,
+				20ABBBDE27730D0700C7CF83 /* VehicleInfoViewController.swift */,
+				20ABBBE027730D2B00C7CF83 /* PaymentInfoViewController.swift */,
+				20ABBBE2277346E600C7CF83 /* VerifyCodeForgotPassViewController.swift */,
+				20ABBBE42773486400C7CF83 /* ForgotPassViewController.swift */,
+				208F258F277486D000085BA7 /* ProfileViewController.swift */,
+				20C76589277AE3AC006DF842 /* FindParkingViewController.swift */,
+				20906D4F277C3768001B3A2A /* ReserveParkingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		20941248276CB35B00AC1777 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20941249276CB37500AC1777 /* Credentials.swift */,
+				20C7658E277B2A22006DF842 /* Address.swift */,
+				20C76596277B44BC006DF842 /* Site.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		209C39942770597800D8E5D9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				209C399B2770598E00D8E5D9 /* Mulish-Black.ttf */,
+				209C39992770598E00D8E5D9 /* Mulish-BlackItalic.ttf */,
+				209C39A02770598E00D8E5D9 /* Mulish-Bold.ttf */,
+				209C399E2770598E00D8E5D9 /* Mulish-BoldItalic.ttf */,
+				209C39B227707BDE00D8E5D9 /* AvenirLTProBlack.otf */,
+				209C39B627707BDF00D8E5D9 /* AvenirLTProBlackOblique.otf */,
+				209C39B127707BDE00D8E5D9 /* AvenirLTProBook.otf */,
+				209C39BA27707BDF00D8E5D9 /* AvenirLTProBookOblique.otf */,
+				209C39BB27707BDF00D8E5D9 /* AvenirLTProHeavy.otf */,
+				209C39B327707BDE00D8E5D9 /* AvenirLTProHeavyOblique.otf */,
+				209C39B727707BDF00D8E5D9 /* AvenirLTProLight.otf */,
+				209C39B427707BDE00D8E5D9 /* AvenirLTProLightOblique.otf */,
+				209C39BC27707BDF00D8E5D9 /* AvenirLTProMedium.otf */,
+				209C39B927707BDF00D8E5D9 /* AvenirLTProMediumOblique.otf */,
+				209C39B827707BDF00D8E5D9 /* AvenirLTProOblique.otf */,
+				209C39B527707BDF00D8E5D9 /* AvenirLTProRoman.otf */,
+				209C399A2770598E00D8E5D9 /* Mulish-ExtraBold.ttf */,
+				209C39982770598E00D8E5D9 /* Mulish-ExtraBoldItalic.ttf */,
+				209C39972770598D00D8E5D9 /* Mulish-ExtraLight.ttf */,
+				209C39A22770598E00D8E5D9 /* Mulish-ExtraLightItalic.ttf */,
+				209C39952770598D00D8E5D9 /* Mulish-Italic.ttf */,
+				209C39A12770598E00D8E5D9 /* Mulish-Light.ttf */,
+				209C39962770598D00D8E5D9 /* Mulish-LightItalic.ttf */,
+				209C399F2770598E00D8E5D9 /* Mulish-Regular.ttf */,
+				209C399C2770598E00D8E5D9 /* Mulish-SemiBold.ttf */,
+				209C399D2770598E00D8E5D9 /* Mulish-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		209C39C927707E3400D8E5D9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				209C39CA27707E4B00D8E5D9 /* LoginManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		209C39CC27708F6600D8E5D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				209C39CD27708F7800D8E5D9 /* UIView.swift */,
+				209C39CF2770939000D8E5D9 /* UIColor.swift */,
+				208F25942774990E00085BA7 /* UIViewController.swift */,
+				2075A46E27784D6D00CE539B /* NSMutableAttributedString.swift */,
+				2075A470277852A400CE539B /* UITextView.swift */,
+				2075A4722778631200CE539B /* CheckBox.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		20C76586277AE350006DF842 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				20C76587277AE37A006DF842 /* Parking.storyboard */,
+				20941215276C9D0400AC1777 /* Main.storyboard */,
+				2094121A276C9D0500AC1777 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		20C7658B277B29A9006DF842 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				20C7658C277B29BB006DF842 /* MenuCell.swift */,
+				20C76594277B4350006DF842 /* OnSiteCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CB870820D301931439574B55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F12941EA27CFCF909945F2BB /* Pods-PrimePark.debug.xcconfig */,
+				D3EFCFA3FAB6E5A9B0309DBD /* Pods-PrimePark.release.xcconfig */,
+				405124137A24ECB94B6D08C1 /* Pods-PrimePark-PrimeParkUITests.debug.xcconfig */,
+				EDF48E1B40DB52BAC7142E7C /* Pods-PrimePark-PrimeParkUITests.release.xcconfig */,
+				028A181D60D154F94412338D /* Pods-PrimeParkTests.debug.xcconfig */,
+				03DF53D7ADD79F3E4C07C471 /* Pods-PrimeParkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB84EC6EC09897714A28409F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33A62D1FEC24694F49B393B1 /* Pods_PrimePark.framework */,
+				226B53494850140B7C6A8821 /* libPods-PrimePark.a */,
+				AD933344FE8D318FE9465B20 /* libPods-PrimePark-PrimeParkUITests.a */,
+				333A257605CEF4C90A11BD1E /* libPods-PrimeParkTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2094120B276C9D0400AC1777 /* PrimePark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20941236276C9D0600AC1777 /* Build configuration list for PBXNativeTarget "PrimePark" */;
+			buildPhases = (
+				C2C4085983FF0A9EE5D022D5 /* [CP] Check Pods Manifest.lock */,
+				20941208276C9D0400AC1777 /* Sources */,
+				20941209276C9D0400AC1777 /* Frameworks */,
+				2094120A276C9D0400AC1777 /* Resources */,
+				3D341FA0D2A7FF844BB5C6D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimePark;
+			productName = PrimePark;
+			productReference = 2094120C276C9D0400AC1777 /* PrimePark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20941221276C9D0600AC1777 /* PrimeParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20941239276C9D0600AC1777 /* Build configuration list for PBXNativeTarget "PrimeParkTests" */;
+			buildPhases = (
+				C80CC28828296A1BBF7948D1 /* [CP] Check Pods Manifest.lock */,
+				2094121E276C9D0600AC1777 /* Sources */,
+				2094121F276C9D0600AC1777 /* Frameworks */,
+				20941220276C9D0600AC1777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20941224276C9D0600AC1777 /* PBXTargetDependency */,
+			);
+			name = PrimeParkTests;
+			productName = PrimeParkTests;
+			productReference = 20941222276C9D0600AC1777 /* PrimeParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2094122B276C9D0600AC1777 /* PrimeParkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2094123C276C9D0600AC1777 /* Build configuration list for PBXNativeTarget "PrimeParkUITests" */;
+			buildPhases = (
+				5B83F2F2B4941639307CFA76 /* [CP] Check Pods Manifest.lock */,
+				20941228276C9D0600AC1777 /* Sources */,
+				20941229276C9D0600AC1777 /* Frameworks */,
+				2094122A276C9D0600AC1777 /* Resources */,
+				2F68A33A01F04F9387F42706 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2094122E276C9D0600AC1777 /* PBXTargetDependency */,
+			);
+			name = PrimeParkUITests;
+			productName = PrimeParkUITests;
+			productReference = 2094122C276C9D0600AC1777 /* PrimeParkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20941204276C9D0400AC1777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					2094120B276C9D0400AC1777 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					20941221276C9D0600AC1777 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 2094120B276C9D0400AC1777;
+					};
+					2094122B276C9D0600AC1777 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 2094120B276C9D0400AC1777;
+					};
+				};
+			};
+			buildConfigurationList = 20941207276C9D0400AC1777 /* Build configuration list for PBXProject "PrimePark" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20941203276C9D0400AC1777;
+			productRefGroup = 2094120D276C9D0400AC1777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2094120B276C9D0400AC1777 /* PrimePark */,
+				20941221276C9D0600AC1777 /* PrimeParkTests */,
+				2094122B276C9D0600AC1777 /* PrimeParkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2094120A276C9D0400AC1777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209C39A52770598E00D8E5D9 /* Mulish-ExtraLight.ttf in Resources */,
+				20C76591277B37E8006DF842 /* MenuCell.xib in Resources */,
+				209C39A82770598E00D8E5D9 /* Mulish-ExtraBold.ttf in Resources */,
+				209C39C627707BDF00D8E5D9 /* AvenirLTProBookOblique.otf in Resources */,
+				209C39C227707BDF00D8E5D9 /* AvenirLTProBlackOblique.otf in Resources */,
+				209C39AA2770598E00D8E5D9 /* Mulish-SemiBold.ttf in Resources */,
+				209C39BE27707BDF00D8E5D9 /* AvenirLTProBlack.otf in Resources */,
+				209C39AF2770598E00D8E5D9 /* Mulish-Light.ttf in Resources */,
+				209C39AE2770598E00D8E5D9 /* Mulish-Bold.ttf in Resources */,
+				209C39A92770598E00D8E5D9 /* Mulish-Black.ttf in Resources */,
+				209C39B02770598E00D8E5D9 /* Mulish-ExtraLightItalic.ttf in Resources */,
+				209C39C527707BDF00D8E5D9 /* AvenirLTProMediumOblique.otf in Resources */,
+				209C39C327707BDF00D8E5D9 /* AvenirLTProLight.otf in Resources */,
+				209C39A42770598E00D8E5D9 /* Mulish-LightItalic.ttf in Resources */,
+				209C39AB2770598E00D8E5D9 /* Mulish-SemiBoldItalic.ttf in Resources */,
+				209C39C427707BDF00D8E5D9 /* AvenirLTProOblique.otf in Resources */,
+				209C39BF27707BDF00D8E5D9 /* AvenirLTProHeavyOblique.otf in Resources */,
+				2094121C276C9D0500AC1777 /* LaunchScreen.storyboard in Resources */,
+				209C39C027707BDF00D8E5D9 /* AvenirLTProLightOblique.otf in Resources */,
+				209C39AD2770598E00D8E5D9 /* Mulish-Regular.ttf in Resources */,
+				209C39AC2770598E00D8E5D9 /* Mulish-BoldItalic.ttf in Resources */,
+				20941219276C9D0500AC1777 /* Assets.xcassets in Resources */,
+				209C39C127707BDF00D8E5D9 /* AvenirLTProRoman.otf in Resources */,
+				209C39A72770598E00D8E5D9 /* Mulish-BlackItalic.ttf in Resources */,
+				209C39A62770598E00D8E5D9 /* Mulish-ExtraBoldItalic.ttf in Resources */,
+				208F2593277487F300085BA7 /* CustomNavBar.xib in Resources */,
+				209C39A32770598E00D8E5D9 /* Mulish-Italic.ttf in Resources */,
+				20941217276C9D0400AC1777 /* Main.storyboard in Resources */,
+				20C76588277AE37A006DF842 /* Parking.storyboard in Resources */,
+				209C39C727707BDF00D8E5D9 /* AvenirLTProHeavy.otf in Resources */,
+				20C76593277B433F006DF842 /* OnSiteCell.xib in Resources */,
+				209C39C827707BDF00D8E5D9 /* AvenirLTProMedium.otf in Resources */,
+				209C39BD27707BDF00D8E5D9 /* AvenirLTProBook.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20941220276C9D0600AC1777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2094122A276C9D0600AC1777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209C39D52770C37E00D8E5D9 /* Mulish-Black.ttf in Resources */,
+				209C39D62770C37E00D8E5D9 /* Mulish-BlackItalic.ttf in Resources */,
+				209C39D72770C37E00D8E5D9 /* Mulish-Bold.ttf in Resources */,
+				209C39D82770C37E00D8E5D9 /* Mulish-BoldItalic.ttf in Resources */,
+				209C39D92770C37E00D8E5D9 /* AvenirLTProBlack.otf in Resources */,
+				209C39DA2770C37E00D8E5D9 /* AvenirLTProBlackOblique.otf in Resources */,
+				209C39DB2770C37E00D8E5D9 /* AvenirLTProBook.otf in Resources */,
+				209C39DC2770C37E00D8E5D9 /* AvenirLTProBookOblique.otf in Resources */,
+				209C39DD2770C37E00D8E5D9 /* AvenirLTProHeavy.otf in Resources */,
+				209C39DE2770C37E00D8E5D9 /* AvenirLTProHeavyOblique.otf in Resources */,
+				209C39DF2770C37E00D8E5D9 /* AvenirLTProLight.otf in Resources */,
+				209C39E02770C37E00D8E5D9 /* AvenirLTProLightOblique.otf in Resources */,
+				209C39E12770C37E00D8E5D9 /* AvenirLTProMedium.otf in Resources */,
+				209C39E22770C37E00D8E5D9 /* AvenirLTProMediumOblique.otf in Resources */,
+				209C39E32770C37E00D8E5D9 /* AvenirLTProOblique.otf in Resources */,
+				209C39E42770C37E00D8E5D9 /* AvenirLTProRoman.otf in Resources */,
+				209C39E52770C37E00D8E5D9 /* Mulish-ExtraBold.ttf in Resources */,
+				209C39E62770C37E00D8E5D9 /* Mulish-ExtraBoldItalic.ttf in Resources */,
+				209C39E72770C37E00D8E5D9 /* Mulish-ExtraLight.ttf in Resources */,
+				209C39E82770C37E00D8E5D9 /* Mulish-ExtraLightItalic.ttf in Resources */,
+				209C39E92770C37E00D8E5D9 /* Mulish-Italic.ttf in Resources */,
+				209C39EA2770C37E00D8E5D9 /* Mulish-Light.ttf in Resources */,
+				209C39EB2770C37E00D8E5D9 /* Mulish-LightItalic.ttf in Resources */,
+				209C39EC2770C37E00D8E5D9 /* Mulish-Regular.ttf in Resources */,
+				209C39ED2770C37E00D8E5D9 /* Mulish-SemiBold.ttf in Resources */,
+				209C39EE2770C37E00D8E5D9 /* Mulish-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F68A33A01F04F9387F42706 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrimePark-PrimeParkUITests/Pods-PrimePark-PrimeParkUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrimePark-PrimeParkUITests/Pods-PrimePark-PrimeParkUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrimePark-PrimeParkUITests/Pods-PrimePark-PrimeParkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D341FA0D2A7FF844BB5C6D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrimePark/Pods-PrimePark-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrimePark/Pods-PrimePark-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrimePark/Pods-PrimePark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B83F2F2B4941639307CFA76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrimePark-PrimeParkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C4085983FF0A9EE5D022D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrimePark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80CC28828296A1BBF7948D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrimeParkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20941208276C9D0400AC1777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209C39CE27708F7800D8E5D9 /* UIView.swift in Sources */,
+				20ABBBDD27730CE400C7CF83 /* OTPAndGeneralInfoViewController.swift in Sources */,
+				20C7658F277B2A22006DF842 /* Address.swift in Sources */,
+				20C76595277B4350006DF842 /* OnSiteCell.swift in Sources */,
+				20941247276CB33400AC1777 /* LoginViewController.swift in Sources */,
+				2075A471277852A400CE539B /* UITextView.swift in Sources */,
+				208F25952774990E00085BA7 /* UIViewController.swift in Sources */,
+				206754532771ABB90026F700 /* SignupViewController.swift in Sources */,
+				20941241276CB2C800AC1777 /* LoginViewModel.swift in Sources */,
+				20ABBBDF27730D0700C7CF83 /* VehicleInfoViewController.swift in Sources */,
+				208F2590277486D000085BA7 /* ProfileViewController.swift in Sources */,
+				20941244276CB2F500AC1777 /* Observable.swift in Sources */,
+				2094124A276CB37500AC1777 /* Credentials.swift in Sources */,
+				20ABBBE127730D2B00C7CF83 /* PaymentInfoViewController.swift in Sources */,
+				20C76597277B44BC006DF842 /* Site.swift in Sources */,
+				2075A46F27784D6D00CE539B /* NSMutableAttributedString.swift in Sources */,
+				209C39CB27707E4B00D8E5D9 /* LoginManager.swift in Sources */,
+				20C7658A277AE3AC006DF842 /* FindParkingViewController.swift in Sources */,
+				20ABBBE3277346E600C7CF83 /* VerifyCodeForgotPassViewController.swift in Sources */,
+				209C39D02770939000D8E5D9 /* UIColor.swift in Sources */,
+				20941210276C9D0400AC1777 /* AppDelegate.swift in Sources */,
+				208F259727749E2D00085BA7 /* Utils.swift in Sources */,
+				209C39D227709AF500D8E5D9 /* LanguageViewController.swift in Sources */,
+				204165352778A2C400D61CB4 /* CustomNavBar.swift in Sources */,
+				20C7658D277B29BB006DF842 /* MenuCell.swift in Sources */,
+				209C39932770562C00D8E5D9 /* SplashViewController.swift in Sources */,
+				20906D50277C3768001B3A2A /* ReserveParkingViewController.swift in Sources */,
+				2075A4732778631200CE539B /* CheckBox.swift in Sources */,
+				20ABBBE52773486400C7CF83 /* ForgotPassViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2094121E276C9D0600AC1777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20941227276C9D0600AC1777 /* PrimeParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20941228276C9D0600AC1777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20941233276C9D0600AC1777 /* PrimeParkUITestsLaunchTests.swift in Sources */,
+				20941231276C9D0600AC1777 /* PrimeParkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20941224276C9D0600AC1777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2094120B276C9D0400AC1777 /* PrimePark */;
+			targetProxy = 20941223276C9D0600AC1777 /* PBXContainerItemProxy */;
+		};
+		2094122E276C9D0600AC1777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2094120B276C9D0400AC1777 /* PrimePark */;
+			targetProxy = 2094122D276C9D0600AC1777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20941215276C9D0400AC1777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20941216276C9D0400AC1777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2094121A276C9D0500AC1777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2094121B276C9D0500AC1777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20941234276C9D0600AC1777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20941235276C9D0600AC1777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20941237276C9D0600AC1777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12941EA27CFCF909945F2BB /* Pods-PrimePark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S8V56L4PL;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrimePark/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PrimePark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20941238276C9D0600AC1777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EFCFA3FAB6E5A9B0309DBD /* Pods-PrimePark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S8V56L4PL;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrimePark/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PrimePark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2094123A276C9D0600AC1777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028A181D60D154F94412338D /* Pods-PrimeParkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S8V56L4PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PrimeParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimePark.app/PrimePark";
+			};
+			name = Debug;
+		};
+		2094123B276C9D0600AC1777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DF53D7ADD79F3E4C07C471 /* Pods-PrimeParkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S8V56L4PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PrimeParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimePark.app/PrimePark";
+			};
+			name = Release;
+		};
+		2094123D276C9D0600AC1777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405124137A24ECB94B6D08C1 /* Pods-PrimePark-PrimeParkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S8V56L4PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PrimeParkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrimePark;
+			};
+			name = Debug;
+		};
+		2094123E276C9D0600AC1777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF48E1B40DB52BAC7142E7C /* Pods-PrimePark-PrimeParkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S8V56L4PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PrimeParkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrimePark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20941207276C9D0400AC1777 /* Build configuration list for PBXProject "PrimePark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20941234276C9D0600AC1777 /* Debug */,
+				20941235276C9D0600AC1777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20941236276C9D0600AC1777 /* Build configuration list for PBXNativeTarget "PrimePark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20941237276C9D0600AC1777 /* Debug */,
+				20941238276C9D0600AC1777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20941239276C9D0600AC1777 /* Build configuration list for PBXNativeTarget "PrimeParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2094123A276C9D0600AC1777 /* Debug */,
+				2094123B276C9D0600AC1777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2094123C276C9D0600AC1777 /* Build configuration list for PBXNativeTarget "PrimeParkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2094123D276C9D0600AC1777 /* Debug */,
+				2094123E276C9D0600AC1777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20941204276C9D0400AC1777 /* Project object */;
+}
